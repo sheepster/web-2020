@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+input, textarea, select {
+    font-size: inherit;
+}
+
+.container {
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-control {
+    height: 30px;
+    font-size: 20px;
+}
+
+.form-control input[type=text] {
+    box-sizing: border-box;   
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 5px 10px;
+}
+
+.btn {
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    border: 1px solid rgb(17, 227, 255);
+    background-color: rgb(63, 66, 255);
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
